@@ -1,5 +1,5 @@
 {
-   "abstract" : "A LaxNum type which provides the loose behavior Moose's Num pre-2.10",
+   "abstract" : "A LaxNum type which provides the loose behavior of Moose's Num pre-2.10",
    "author" : [
       "Upasana Shukla <me@upasana.me>"
    ],
@@ -44,6 +44,6 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.03"
+   "version" : "0.04"
 }
 

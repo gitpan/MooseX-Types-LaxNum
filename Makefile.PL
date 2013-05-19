@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "A LaxNum type which provides the loose behavior Moose's Num pre-2.10",
+  "ABSTRACT" => "A LaxNum type which provides the loose behavior of Moose's Num pre-2.10",
   "AUTHOR" => "Upasana Shukla <me\@upasana.me>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     "Test::Fatal" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.03",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => "t/*.t"
   }
