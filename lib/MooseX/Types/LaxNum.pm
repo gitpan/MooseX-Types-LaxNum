@@ -28,7 +28,7 @@ MooseX::Types::LaxNum - A LaxNum type which provides the loose behavior Moose's 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -55,10 +55,6 @@ since Num has been changed to be more strict.
 =head1 NAME
 
 MooseX::Types::LaxNum
-
-=head1 AUTHOR
-
-Upasana Shuka, C<me@upasana.me>
 
 =head1 COPYRIGHT & LICENSE
 
