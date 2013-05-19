@@ -1,5 +1,5 @@
 ---
-abstract: 'Old behaviour of the Num type'
+abstract: "A LaxNum type which provides the loose behavior Moose's Num pre-2.10"
 author:
   - 'Upasana Shukla <me@upasana.me>'
 build_requires:
@@ -21,4 +21,4 @@ requires:
   Scalar::Util: 0
   strict: 0
   warnings: 0
-version: 0.01
+version: 0.02

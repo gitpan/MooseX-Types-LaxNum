@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Moose::Util::TypeConstraints;
 use Scalar::Util qw( looks_like_number );
-# ABSTRACT: Old behaviour of the Num type
+# ABSTRACT: A LaxNum type which provides the loose behavior Moose's Num pre-2.10
 
 my $value_type = Moose::Util::TypeConstraints::find_type_constraint('Value');
 subtype 'LaxNum'
@@ -24,11 +24,11 @@ __END__
 
 =head1 NAME
 
-MooseX::Types::LaxNum - Old behaviour of the Num type
+MooseX::Types::LaxNum - A LaxNum type which provides the loose behavior Moose's Num pre-2.10
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

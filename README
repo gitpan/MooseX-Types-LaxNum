@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution MooseX-Types-LaxNum,
-version 0.01:
+version 0.02:
 
-  Old behaviour of the Num type
+  A LaxNum type which provides the loose behavior Moose's Num pre-2.10
 
 This software is copyright (c) 2013 by Upasana Shukla.
 
